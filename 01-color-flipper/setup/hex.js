@@ -11,14 +11,14 @@ btn.addEventListener("click", function()
 
  for(let i=0;i<6;i++)
  {
-     hexcolour +=hex[getRandomNumber()];
+     hexcolour +=hex[getrandomNumber()];
  }
  color.textContent=hexcolour;
  document.body.style.backgroundColor=hexcolour;
 });
 
 
-function getRandomNumber()
+function getrandomNumber()
 {
     return Math.floor(Math.random()*hex.length);
 }
